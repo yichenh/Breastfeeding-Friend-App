@@ -5,14 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{92530E37-4DE1-401E-9E83-58BF8720A8D1}</ProjectGuid>
+    <ProjectGuid>{A5FFF36F-BAB0-4E08-9774-165A6E5C4F80}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BFF2.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>BFF2.iOS</AssemblyName>
-    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -28,6 +27,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>false</MtouchFastDev>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -88,6 +88,12 @@
     <CodesignProvision>Automatic:AppStore</CodesignProvision>
     <CodesignKey>iPhone Distribution</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BFF2.iOS.Application</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -150,12 +156,12 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\BFF2\BFF2.csproj">
-      <Project>{D15E5B4B-55BC-4476-830C-0AC1ED2D6246}</Project>
+      <Project>{95467FA9-6FB9-461B-909C-DE3EF54E59C8}</Project>
       <Name>BFF2</Name>
     </ProjectReference>
   </ItemGroup>
@@ -163,7 +169,11 @@
     <Folder Include="Resources\Videos\" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Videos\iOSApiVideo.mp4" />
-    <BundleResource Include="Resources\Videos\how-to-breastfeed.mp4" />
+    <BundleResource Include="Resources\Videos\HowToBreastFeed.mp4" />
+    <BundleResource Include="Resources\Videos\Unicef.mp4" />
+    <BundleResource Include="Resources\Videos\LatchABaby.mp4" />
+    <BundleResource Include="Resources\Videos\LatchCorrection.mp4" />
+    <BundleResource Include="Resources\Videos\PacedBottleFeeding.mp4" />
+    <BundleResource Include="Resources\Videos\ReversePressureSofteningforEngorgement.mp4" />
   </ItemGroup>
 </Project>

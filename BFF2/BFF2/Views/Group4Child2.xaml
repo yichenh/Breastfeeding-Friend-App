@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BFF2.Views.Group4Child2">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <ImageButton x:Name="pic1" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic2" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic4" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic5" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic6" Clicked="OnCallVideo"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

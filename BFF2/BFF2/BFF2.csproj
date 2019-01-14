@@ -1,26 +1,327 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebugType>pdbonly</DebugType>
-    <DebugSymbols>true</DebugSymbols>
+    <TargetFramework>netstandard1.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <None Remove="group2child0pic1.png" />
+    <None Remove="Images\group2child0pic1.png" />
+    <None Remove="Images\group2child0pic2.png" />
+    <None Remove="Images\group2child0pic3.png" />
+    <None Remove="Images\group2child0pic4.png" />
+    <None Remove="Images\group2child0pic5.png" />
+    <None Remove="Images\group2child0pic6.png" />
+    <None Remove="Images\group2child0pic7.png" />
+    <None Remove="Images\group2child0pic8.png" />
+    <None Remove="Images\group2child0pic9.png" />
+    <None Remove="Images\_welcome.png" />
+    <None Remove="Images\group0child0pic1.png" />
+    <None Remove="Images\group0child0pic2.png" />
+    <None Remove="Images\group1child0pic1.png" />
+    <None Remove="Images\group2child1pic1.png" />
+    <None Remove="Images\group2child2pic1.png" />
+    <None Remove="Images\group2child3pic1.png" />
+    <None Remove="Images\group5child3pic1.png" />
+    <None Remove="Images\group5child3pic2.png" />
+    <None Remove="Images\group6child2pic1.png" />
+    <None Remove="Images\group6child2pic2.png" />
+    <None Remove="Images\group6child2pic3.png" />
+    <None Remove="Images\group6child2pic4.png" />
+    <None Remove="Images\group6child3pic1.png" />
+    <None Remove="Images\group6child3pic2.png" />
+    <None Remove="Images\group6child3pic3.png" />
+    <None Remove="Images\group3child0pic1.png" />
+    <None Remove="Images\group3child0pic2.png" />
+    <None Remove="Images\group3child1pic1.png" />
+    <None Remove="Images\group3child1pic2.png" />
+    <None Remove="Images\group3child2pic1.png" />
+    <None Remove="Images\group3child2pic2.png" />
+    <None Remove="Images\group3child3pic1.png" />
+    <None Remove="Images\group3child3pic2.png" />
+    <None Remove="Images\group3child4pic1.png" />
+    <None Remove="Images\group3child4pic2.png" />
+    <None Remove="Images\group3child5pic1.png" />
+    <None Remove="Images\group3child5pic2.png" />
+    <None Remove="Images\group3child6pic1.png" />
+    <None Remove="Images\group3child7pic1.png" />
+    <None Remove="Images\group3child7pic2.png" />
+    <None Remove="Images\group3child6pic2.png" />
+    <None Remove="Images\group3child6pic3.png" />
+    <None Remove="Images\group3child7pic3.png" />
+    <None Remove="Images\group8child2pic1.png" />
+    <None Remove="Images\group8child2pic2.png" />
+    <None Remove="Images\group8child2pic3.png" />
+    <None Remove="Images\group6child0pic1.png" />
+    <None Remove="Images\group6child0pic2.png" />
+    <None Remove="Images\group6child0pic3.png" />
+    <None Remove="Images\group6child0pic4.png" />
+    <None Remove="Images\group6child0pic5.png" />
+    <None Remove="Images\group6child1pic1.png" />
+    <None Remove="Images\group6child1pic2.png" />
+    <None Remove="Images\group6child1pic3.png" />
+    <None Remove="Images\group6child1pic4.png" />
+    <None Remove="Images\group6child1pic5.png" />
+    <None Remove="Images\group6child1pic6.png" />
+    <None Remove="Images\group5child0pic1.png" />
+    <None Remove="Images\group5child0pic2.png" />
+    <None Remove="Images\group5child0pic3.png" />
+    <None Remove="Images\group5child2pic1.png" />
+    <None Remove="Images\group5child2pic2.png" />
+    <None Remove="Images\group7child1pic1.png" />
+    <None Remove="Images\group7child1pic2.png" />
+    <None Remove="Images\group7child1pic3.png" />
+    <None Remove="Images\group7child1pic4.png" />
+    <None Remove="Images\group7child2pic1.png" />
+    <None Remove="Images\group7child2pic2.png" />
+    <None Remove="Images\group7child2pic3.png" />
+    <None Remove="Images\group7child3pic1.png" />
+    <None Remove="Images\group7child3pic2.png" />
+    <None Remove="Images\group7child3pic3.png" />
+    <None Remove="Images\group7child3pic4.png" />
+    <None Remove="Images\group7child5pic1.png" />
+    <None Remove="Images\group7child5pic2.png" />
+    <None Remove="Images\group7child6pic1.png" />
+    <None Remove="Images\group7child6pic2.png" />
+    <None Remove="Images\group7child6pic3.png" />
+    <None Remove="Images\group7child7pic1.png" />
+    <None Remove="Images\group7child7pic2.png" />
+    <None Remove="Images\group7child7pic3.png" />
+    <None Remove="Images\group7child7pic4.png" />
+    <None Remove="Images\group7child7pic5.png" />
+    <None Remove="Images\group9child0pic1.png" />
+    <None Remove="Images\group9child0pic2.png" />
+    <None Remove="Images\group7child8pic1.png" />
+    <None Remove="Images\group7child8pic2.png" />
+    <None Remove="Images\group7child8pic3.png" />
+    <None Remove="Images\group7child8pic4.png" />
+    <None Remove="Images\group7child8pic5.png" />
+    <None Remove="Images\group7child9pic1.png" />
+    <None Remove="Images\group7child9pic2.png" />
+    <None Remove="Images\group8child0pic1.png" />
+    <None Remove="Images\group8child0pic2.png" />
+    <None Remove="Images\group8child0pic3.png" />
+    <None Remove="Images\group8child0pic4.png" />
+    <None Remove="Images\group8child0pic5.png" />
+    <None Remove="Images\group8child0pic6.png" />
+    <None Remove="Images\group8child1pic1.png" />
+    <None Remove="Images\group8child1pic2.png" />
+    <None Remove="Images\group8child1pic3.png" />
+    <None Remove="Images\group8child3pic1.png" />
+    <None Remove="Images\group8child3pic2.png" />
+    <None Remove="Images\group8child3pic3.png" />
+    <None Remove="Images\group8child3pic4.png" />
+    <None Remove="Images\group8child3pic5.png" />
+    <None Remove="Images\group8child4pic1.png" />
+    <None Remove="Images\group8child4pic2.png" />
+    <None Remove="Images\group9child2pic1.png" />
+    <None Remove="Images\group9child2pic2.png" />
+    <None Remove="Images\group9child2pic3.png" />
+    <None Remove="Images\group4child0pic1.png" />
+    <None Remove="Images\group4child0pic2.png" />
+    <None Remove="Images\group4child1pic1.png" />
+    <None Remove="Images\group4child1pic2.png" />
+    <None Remove="Images\group4child1pic3.png" />
+    <None Remove="Images\group4child1pic4.png" />
+    <None Remove="Images\group4child1pic5.png" />
+    <None Remove="Images\group4child1pic6.png" />
+    <None Remove="Images\group4child1pic7.png" />
+    <None Remove="Images\group4child2pic1.png" />
+    <None Remove="Images\group4child2pic2.png" />
+    <None Remove="Images\group4child2pic4.png" />
+    <None Remove="Images\group4child2pic5.png" />
+    <None Remove="Images\group4child2pic6.png" />
+    <None Remove="Images\group4child3pic1.png" />
+    <None Remove="Images\group4child3pic2.png" />
+    <None Remove="Images\group4child3pic3.png" />
+    <None Remove="Images\group4child4pic1.png" />
+    <None Remove="Images\group7child4pic1.png" />
+    <None Remove="Images\group7child4pic2.png" />
+    <None Remove="Images\group7child4pic3.png" />
+    <None Remove="Images\group7child4pic4.png" />
+    <None Remove="Images\group9child1pic1.png" />
+    <None Remove="Images\group11child4pic1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\group2child0pic1.png" />
+    <EmbeddedResource Include="Images\group2child0pic2.png" />
+    <EmbeddedResource Include="Images\group2child0pic3.png" />
+    <EmbeddedResource Include="Images\group2child0pic4.png" />
+    <EmbeddedResource Include="Images\group2child0pic5.png" />
+    <EmbeddedResource Include="Images\group2child0pic6.png" />
+    <EmbeddedResource Include="Images\group2child0pic7.png" />
+    <EmbeddedResource Include="Images\group2child0pic8.png" />
+    <EmbeddedResource Include="Images\group2child0pic9.png" />
+    <EmbeddedResource Include="Images\_welcome.png" />
+    <EmbeddedResource Include="Images\group0child0pic1.png" />
+    <EmbeddedResource Include="Images\group0child0pic2.png" />
+    <EmbeddedResource Include="Images\group1child0pic1.png" />
+    <EmbeddedResource Include="Images\group2child1pic1.png" />
+    <EmbeddedResource Include="Images\group2child2pic1.png" />
+    <EmbeddedResource Include="Images\group2child3pic1.png" />
+    <EmbeddedResource Include="Images\group5child3pic1.png" />
+    <EmbeddedResource Include="Images\group5child3pic2.png" />
+    <EmbeddedResource Include="Images\group6child2pic1.png" />
+    <EmbeddedResource Include="Images\group6child2pic2.png" />
+    <EmbeddedResource Include="Images\group6child2pic3.png" />
+    <EmbeddedResource Include="Images\group6child2pic4.png" />
+    <EmbeddedResource Include="Images\group6child3pic1.png" />
+    <EmbeddedResource Include="Images\group6child3pic2.png" />
+    <EmbeddedResource Include="Images\group6child3pic3.png" />
+    <EmbeddedResource Include="Images\group3child0pic1.png" />
+    <EmbeddedResource Include="Images\group3child0pic2.png" />
+    <EmbeddedResource Include="Images\group3child1pic1.png" />
+    <EmbeddedResource Include="Images\group3child1pic2.png" />
+    <EmbeddedResource Include="Images\group3child2pic1.png" />
+    <EmbeddedResource Include="Images\group3child2pic2.png" />
+    <EmbeddedResource Include="Images\group3child3pic1.png" />
+    <EmbeddedResource Include="Images\group3child3pic2.png" />
+    <EmbeddedResource Include="Images\group3child4pic1.png" />
+    <EmbeddedResource Include="Images\group3child4pic2.png" />
+    <EmbeddedResource Include="Images\group3child5pic1.png" />
+    <EmbeddedResource Include="Images\group3child5pic2.png" />
+    <EmbeddedResource Include="Images\group3child6pic1.png" />
+    <EmbeddedResource Include="Images\group3child7pic1.png" />
+    <EmbeddedResource Include="Images\group3child7pic2.png" />
+    <EmbeddedResource Include="Images\group3child6pic2.png" />
+    <EmbeddedResource Include="Images\group3child6pic3.png" />
+    <EmbeddedResource Include="Images\group3child7pic3.png" />
+    <EmbeddedResource Include="Images\group8child2pic1.png" />
+    <EmbeddedResource Include="Images\group8child2pic2.png" />
+    <EmbeddedResource Include="Images\group8child2pic3.png" />
+    <EmbeddedResource Include="Images\group6child0pic1.png" />
+    <EmbeddedResource Include="Images\group6child0pic2.png" />
+    <EmbeddedResource Include="Images\group6child0pic3.png" />
+    <EmbeddedResource Include="Images\group6child0pic4.png" />
+    <EmbeddedResource Include="Images\group6child0pic5.png" />
+    <EmbeddedResource Include="Images\group6child1pic1.png" />
+    <EmbeddedResource Include="Images\group6child1pic2.png" />
+    <EmbeddedResource Include="Images\group6child1pic3.png" />
+    <EmbeddedResource Include="Images\group6child1pic4.png" />
+    <EmbeddedResource Include="Images\group6child1pic5.png" />
+    <EmbeddedResource Include="Images\group6child1pic6.png" />
+    <EmbeddedResource Include="Images\group5child0pic1.png" />
+    <EmbeddedResource Include="Images\group5child0pic2.png" />
+    <EmbeddedResource Include="Images\group5child0pic3.png" />
+    <EmbeddedResource Include="Images\group5child2pic1.png" />
+    <EmbeddedResource Include="Images\group5child2pic2.png" />
+    <EmbeddedResource Include="Images\group7child1pic1.png" />
+    <EmbeddedResource Include="Images\group7child1pic2.png" />
+    <EmbeddedResource Include="Images\group7child1pic3.png" />
+    <EmbeddedResource Include="Images\group7child1pic4.png" />
+    <EmbeddedResource Include="Images\group7child2pic1.png" />
+    <EmbeddedResource Include="Images\group7child2pic2.png" />
+    <EmbeddedResource Include="Images\group7child2pic3.png" />
+    <EmbeddedResource Include="Images\group7child3pic1.png" />
+    <EmbeddedResource Include="Images\group7child3pic2.png" />
+    <EmbeddedResource Include="Images\group7child3pic3.png" />
+    <EmbeddedResource Include="Images\group7child3pic4.png" />
+    <EmbeddedResource Include="Images\group7child5pic1.png" />
+    <EmbeddedResource Include="Images\group7child5pic2.png" />
+    <EmbeddedResource Include="Images\group7child6pic1.png" />
+    <EmbeddedResource Include="Images\group7child6pic2.png" />
+    <EmbeddedResource Include="Images\group7child6pic3.png" />
+    <EmbeddedResource Include="Images\group7child7pic1.png" />
+    <EmbeddedResource Include="Images\group7child7pic2.png" />
+    <EmbeddedResource Include="Images\group7child7pic3.png" />
+    <EmbeddedResource Include="Images\group7child7pic4.png" />
+    <EmbeddedResource Include="Images\group7child7pic5.png" />
+    <EmbeddedResource Include="Images\group9child0pic1.png" />
+    <EmbeddedResource Include="Images\group9child0pic2.png" />
+    <EmbeddedResource Include="Images\group7child8pic1.png" />
+    <EmbeddedResource Include="Images\group7child8pic2.png" />
+    <EmbeddedResource Include="Images\group7child8pic3.png" />
+    <EmbeddedResource Include="Images\group7child8pic4.png" />
+    <EmbeddedResource Include="Images\group7child8pic5.png" />
+    <EmbeddedResource Include="Images\group7child9pic1.png" />
+    <EmbeddedResource Include="Images\group7child9pic2.png" />
+    <EmbeddedResource Include="Images\group8child0pic1.png" />
+    <EmbeddedResource Include="Images\group8child0pic2.png" />
+    <EmbeddedResource Include="Images\group8child0pic3.png" />
+    <EmbeddedResource Include="Images\group8child0pic4.png" />
+    <EmbeddedResource Include="Images\group8child0pic5.png" />
+    <EmbeddedResource Include="Images\group8child0pic6.png" />
+    <EmbeddedResource Include="Images\group8child1pic1.png" />
+    <EmbeddedResource Include="Images\group8child1pic2.png" />
+    <EmbeddedResource Include="Images\group8child1pic3.png" />
+    <EmbeddedResource Include="Images\group8child3pic1.png" />
+    <EmbeddedResource Include="Images\group8child3pic2.png" />
+    <EmbeddedResource Include="Images\group8child3pic3.png" />
+    <EmbeddedResource Include="Images\group8child3pic4.png" />
+    <EmbeddedResource Include="Images\group8child3pic5.png" />
+    <EmbeddedResource Include="Images\group8child4pic1.png" />
+    <EmbeddedResource Include="Images\group8child4pic2.png" />
+    <EmbeddedResource Include="Images\group9child2pic1.png" />
+    <EmbeddedResource Include="Images\group9child2pic2.png" />
+    <EmbeddedResource Include="Images\group9child2pic3.png" />
+    <EmbeddedResource Include="Images\group4child0pic1.png" />
+    <EmbeddedResource Include="Images\group4child0pic2.png" />
+    <EmbeddedResource Include="Images\group4child1pic1.png" />
+    <EmbeddedResource Include="Images\group4child1pic2.png" />
+    <EmbeddedResource Include="Images\group4child1pic3.png" />
+    <EmbeddedResource Include="Images\group4child1pic4.png" />
+    <EmbeddedResource Include="Images\group4child1pic5.png" />
+    <EmbeddedResource Include="Images\group4child1pic6.png" />
+    <EmbeddedResource Include="Images\group4child1pic7.png" />
+    <EmbeddedResource Include="Images\group4child2pic1.png" />
+    <EmbeddedResource Include="Images\group4child2pic2.png" />
+    <EmbeddedResource Include="Images\group4child2pic4.png" />
+    <EmbeddedResource Include="Images\group4child2pic5.png" />
+    <EmbeddedResource Include="Images\group4child2pic6.png" />
+    <EmbeddedResource Include="Images\group4child3pic1.png" />
+    <EmbeddedResource Include="Images\group4child3pic2.png" />
+    <EmbeddedResource Include="Images\group4child3pic3.png" />
+    <EmbeddedResource Include="Images\group4child4pic1.png" />
+    <EmbeddedResource Include="Images\group7child4pic1.png" />
+    <EmbeddedResource Include="Images\group7child4pic2.png" />
+    <EmbeddedResource Include="Images\group7child4pic3.png" />
+    <EmbeddedResource Include="Images\group7child4pic4.png" />
+    <EmbeddedResource Include="Images\group9child1pic1.png" />
+    <EmbeddedResource Include="Images\group11child4pic1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FormsVideoLibrary\" />
-    <Folder Include="Assets\" />
-    <Folder Include="Assets\Videos\" />
+    <Compile Remove="Views\View1.xaml.cs" />
+    <Compile Remove="Views\Group4Child2.cs" />
+    <Compile Remove="MasterPageGroup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="FormsVideoLibrary\EmptyClass.cs" />
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HowToBreastFeed.xaml.cs">
+      <DependentUpon>HowToBreastFeed.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Unicef.xaml.cs">
+      <DependentUpon>Unicef.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Group4Child0.xaml.cs">
+      <DependentUpon>Group4Child0.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Group4Child1.xaml.cs">
+      <DependentUpon>Group4Child1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\LatchABaby.xaml.cs">
+      <DependentUpon>LatchABaby.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ReversePressureSofteningforEngorgement.xaml.cs">
+      <DependentUpon>ReversePressureSofteningforEngorgement.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Group7Child4.xaml.cs">
+      <DependentUpon>Group7Child4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\PacedBottleFeeding.xaml.cs">
+      <DependentUpon>PacedBottleFeeding.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Group11Child4.xaml.cs">
+      <DependentUpon>Group11Child4.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Assets\Videos\JazzATHolmes-Stitched-ColorCorrected_injected.mp4" />
+    <Folder Include="Images\" />
   </ItemGroup>
 </Project>

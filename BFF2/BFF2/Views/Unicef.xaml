@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:video="clr-namespace:FormsVideoLibrary" x:Class="BFF2.Views.Unicef" Title="Unicef">
+    <ContentPage.Content>
+        <video:VideoPlayer>
+            <video:VideoPlayer.Source>
+                <video:ResourceVideoSource>
+                    <video:ResourceVideoSource.Path>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Videos/Unicef.mp4" />
+                            <On Platform="Android" Value="Unicef.mp4" />
+                        </OnPlatform>
+                    </video:ResourceVideoSource.Path>
+                </video:ResourceVideoSource>
+            </video:VideoPlayer.Source>
+        </video:VideoPlayer>
+    </ContentPage.Content>
+</ContentPage>

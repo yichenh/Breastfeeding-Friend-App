@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="using:BFF2"
+    x:Class="BFF2.Views.MasterPage"
+    Title="Table of Contents">
+    <!-- 
+        This page is a list of all the links in the master page. For views
+        that only contain images, you can define the link's TargetType as
+        {x:Type local:Views.PureImage} and pass in a list of paths to images.
+    
+        For more customized views, simply pass in the name of the view (as
+        is done with the WelcomePage for example.
+    -->
+    <StackLayout>
+        <ListView x:Name="listView" x:FieldModifier="public">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="Welcome" TargetType="{x:Type local:Views.WelcomePage}"/>
+                    <local:MasterPageItem Title="Points To Remember" TargetType="{x:Type local:Views.PureImage}" UqName="group0child0">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group0child0pic1.png"/>
+                                <local:CustomImage Path="group0child0pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="How the App Works" TargetType="{x:Type local:Views.PureImage}" UqName="group1child0">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group1child0pic1.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Benefits for Baby" TargetType="{x:Type local:Views.PureImage}" UqName="group2child0">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group2child0pic1.png"/>
+                                <local:CustomImage Path="group2child0pic2.png"/>
+                                <local:CustomImage Path="group2child0pic3.png"/>
+                                <local:CustomImage Path="group2child0pic4.png"/>
+                                <local:CustomImage Path="group2child0pic5.png"/>
+                                <local:CustomImage Path="group2child0pic6.png"/>
+                                <local:CustomImage Path="group2child0pic7.png"/>
+                                <local:CustomImage Path="group2child0pic8.png"/>
+                                <local:CustomImage Path="group2child0pic9.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Benefits for Mom" TargetType="{x:Type local:Views.PureImage}" UqName="group2child1">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group2child1pic1.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Financial Benefits" TargetType="{x:Type local:Views.PureImage}" UqName="group2child2">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group2child2pic1.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Time-Saving Benefits" TargetType="{x:Type local:Views.PureImage}" UqName="group2child3">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group2child3pic1.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Most Women Don't Breastfeed" TargetType="{x:Type local:Views.PureImage}" UqName="group3child0">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group3child0pic1.png"/>
+                                <local:CustomImage Path="group3child0pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Formula is More Nutritious" TargetType="{x:Type local:Views.PureImage}" UqName="group3child1">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group3child1pic1.png"/>
+                                <local:CustomImage Path="group3child1pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Giving Formula and Breastmilk Together" TargetType="{x:Type local:Views.PureImage}" UqName="group3child2">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group3child2pic1.png"/>
+                                <local:CustomImage Path="group3child2pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Breastfeeding Makes Breasts Sag" TargetType="{x:Type local:Views.PureImage}" UqName="group3child3">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group3child3pic1.png"/>
+                                <local:CustomImage Path="group3child3pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="My Breasts are Too Small or Large to Breastfeed" TargetType="{x:Type local:Views.PureImage}" UqName="group3child4">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group3child4pic1.png"/>
+                                <local:CustomImage Path="group3child4pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Breastfeeding Spoils Babies" TargetType="{x:Type local:Views.PureImage}" UqName="group3child5">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group3child5pic1.png"/>
+                                <local:CustomImage Path="group3child5pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="BreastFeeding is Painful" TargetType="{x:Type local:Views.Group3Child6}" UqName="group3child6"/>
+                    <local:MasterPageItem Title="You Don't Need Birth Control While Breastfeeding" TargetType="{x:Type local:Views.Group3Child7}" UqName="group3child7"/>
+                    <local:MasterPageItem Title="Manual Expression" TargetType="{x:Type local:Views.Group4Child0}" UqName = "group4child0"/>
+                    <local:MasterPageItem Title="Position that is Comfortable for both Mother and Baby" TargetType="{x:Type local:Views.Group4Child1}" UqName="group4child1"/>
+                    <local:MasterPageItem Title="The Latch" TargetType="{x:Type local:Views.Group4Child2}" UqName="group4child2"/>
+                    <local:MasterPageItem Title="Making Enough Milk" TargetType="{x:Type local:Views.Group5Child0}" UqName="group5child0"/>
+                    <local:MasterPageItem Title="How To Know Baby is Getting Enough Milk" TargetType="{x:Type local:Views.Group5Child1}" UqName="group5child1"/>
+                    <local:MasterPageItem Title="Survival Tips" TargetType="{x:Type local:Views.Group5Child2}" UqName="group5child2"/>
+                    <local:MasterPageItem Title="Getting Support" TargetType="{x:Type local:Views.PureImage}" UqName="group5child3">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group5child3pic1.png"/>
+                                <local:CustomImage Path="group5child3pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Feeding Patterns" TargetType="{x:Type local:Views.Group6Child0}" UqName="group6child0"/>
+                    <local:MasterPageItem Title="Dirty Diapers" TargetType="{x:Type local:Views.Group6Child1}" UqName="group6child1"/>
+                    <local:MasterPageItem Title="Sleep Patterns" TargetType="{x:Type local:Views.PureImage}" UqName="group6child2">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group6child2pic1.png"/>
+                                <local:CustomImage Path="group6child2pic2.png"/>
+                                <local:CustomImage Path="group6child2pic3.png"/>
+                                <local:CustomImage Path="group6child2pic4.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Sleep Regressions" TargetType="{x:Type local:Views.PureImage}" UqName="group6child3">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group6child3pic1.png"/>
+                                <local:CustomImage Path="group6child3pic2.png"/>
+                                <local:CustomImage Path="group6child3pic3.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Painful Latch" TargetType="{x:Type local:Views.Group7Child0}" UqName="group7child0"/>
+                    <local:MasterPageItem Title="Sore Nipples" TargetType="{x:Type local:Views.Group7Child1}" UqName="group7child1"/>
+                    <local:MasterPageItem Title="Flat or Inverted Nipples" TargetType="{x:Type local:Views.PureImage}" UqName="group7child2">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group7child2pic1.png"/>
+                                <local:CustomImage Path="group7child2pic2.png"/>
+                                <local:CustomImage Path="group7child2pic3.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Low Milk Supply" TargetType="{x:Type local:Views.Group7Child3}" UqName="group7child3"/>
+                    <local:MasterPageItem Title="Engorgement" TargetType="{x:Type local:Views.Group7Child4}" UqName="group7child4"/>
+                    <local:MasterPageItem Title="Clogged Ducts" TargetType="{x:Type local:Views.PureImage}" UqName="group7child5">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group7child5pic1.png"/>
+                                <local:CustomImage Path="group7child5pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Breastfeeding After a C-Section" TargetType="{x:Type local:Views.PureImage}" UqName="group7child6">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group7child6pic1.png"/>
+                                <local:CustomImage Path="group7child6pic2.png"/>
+                                <local:CustomImage Path="group7child6pic3.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Breastfeeding Premature Babies" TargetType="{x:Type local:Views.Group7Child7}" UqName="group7child7"/>
+                    <local:MasterPageItem Title="Breastfeeding and Medication" TargetType="{x:Type local:Views.Group7Child8}" UqName="group7child8"/>
+                    <local:MasterPageItem Title="Breastfeeding in Public" TargetType="{x:Type local:Views.PureImage}" UqName="group7child9">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group7child9pic1.png"/>
+                                <local:CustomImage Path="group7child9pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Smoking, Drinking, and Drug Use While Breastfeeding" TargetType="{x:Type local:Views.Group8Child0}" UqName="group8child0"/>
+                    <local:MasterPageItem Title="Breastfeeding on Your Period" TargetType="{x:Type local:Views.Group8Child1}" UqName="group8child1"/>
+                    <local:MasterPageItem Title="Breastfeeding and Birth Control" TargetType="{x:Type local:Views.Group8Child2}" UqName="group8child2"/>
+                    <local:MasterPageItem Title="Baby Growth Spurts" TargetType="{x:Type local:Views.Group8Child3}" UqName="group8child3"/>
+                    <local:MasterPageItem Title="Breastfeeding When Sick" TargetType="{x:Type local:Views.PureImage}" UqName="group8child4">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group8child4pic1.png"/>
+                                <local:CustomImage Path="group8child4pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Getting a Pump" TargetType="{x:Type local:Views.PureImage}" UqName="group9child0">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group9child0pic1.png"/>
+                                <local:CustomImage Path="group9child0pic2.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Storing and Thawing Pumped Milk" TargetType="{x:Type local:Views.PureImage}" UqName="group9child2">
+                        <local:MasterPageItem.Images>
+                            <x:Array Type="{x:Type local:CustomImage}">
+                                <local:CustomImage Path="group9child2pic1.png"/>
+                                <local:CustomImage Path="group9child2pic2.png"/>
+                                <local:CustomImage Path="group9child2pic3.png"/>
+                            </x:Array>
+                        </local:MasterPageItem.Images>
+                    </local:MasterPageItem>
+                    <local:MasterPageItem Title="Bottle Feeding a Breastfed Baby (Paced Feedings)" TargetType="{x:Type local:Views.Group11Child4}" UqName="group11child4"/>
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
