@@ -118,7 +118,6 @@
     <None Remove="Images\group9child2pic2.png" />
     <None Remove="Images\group9child2pic3.png" />
     <None Remove="Images\group4child0pic1.png" />
-    <None Remove="Images\group4child0pic2.png" />
     <None Remove="Images\group4child1pic1.png" />
     <None Remove="Images\group4child1pic2.png" />
     <None Remove="Images\group4child1pic3.png" />
@@ -141,6 +140,12 @@
     <None Remove="Images\group7child4pic4.png" />
     <None Remove="Images\group9child1pic1.png" />
     <None Remove="Images\group11child4pic1.png" />
+    <None Remove="Images\group4child0pic3.png" />
+    <None Remove="Images\group4child0pic2.png" />
+    <None Remove="Images\group4child1pic8.png" />
+    <None Remove="Images\group4child2pic3.png" />
+    <None Remove="Images\group7child4pic5.png" />
+    <None Remove="Images\group11child4pic2.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -260,7 +265,7 @@
     <EmbeddedResource Include="Images\group9child2pic2.png" />
     <EmbeddedResource Include="Images\group9child2pic3.png" />
     <EmbeddedResource Include="Images\group4child0pic1.png" />
-    <EmbeddedResource Include="Images\group4child0pic2.png" />
+    <EmbeddedResource Include="Images\group4child0pic3.png" />
     <EmbeddedResource Include="Images\group4child1pic1.png" />
     <EmbeddedResource Include="Images\group4child1pic2.png" />
     <EmbeddedResource Include="Images\group4child1pic3.png" />
@@ -283,6 +288,11 @@
     <EmbeddedResource Include="Images\group7child4pic4.png" />
     <EmbeddedResource Include="Images\group9child1pic1.png" />
     <EmbeddedResource Include="Images\group11child4pic1.png" />
+    <EmbeddedResource Include="Images\group4child0pic2.png" />
+    <EmbeddedResource Include="Images\group4child1pic8.png" />
+    <EmbeddedResource Include="Images\group4child2pic3.png" />
+    <EmbeddedResource Include="Images\group7child4pic5.png" />
+    <EmbeddedResource Include="Images\group11child4pic2.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\View1.xaml.cs" />

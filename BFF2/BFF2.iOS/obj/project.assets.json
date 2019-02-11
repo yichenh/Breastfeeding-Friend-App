@@ -718,11 +718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2.iOS/BFF2.iOS.csproj",
+      "projectUniqueName": "/Users/yichenhao/bff2/BFF2/BFF2.iOS/BFF2.iOS.csproj",
       "projectName": "BFF2.iOS",
-      "projectPath": "/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2.iOS/BFF2.iOS.csproj",
+      "projectPath": "/Users/yichenhao/bff2/BFF2/BFF2.iOS/BFF2.iOS.csproj",
       "packagesPath": "/Users/yichenhao/.nuget/packages/",
-      "outputPath": "/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2.iOS/obj",
+      "outputPath": "/Users/yichenhao/bff2/BFF2/BFF2.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yichenhao/.config/NuGet/NuGet.Config"
@@ -736,8 +736,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2/BFF2.csproj": {
-              "projectPath": "/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2/BFF2.csproj"
+            "/Users/yichenhao/bff2/BFF2/BFF2/BFF2.csproj": {
+              "projectPath": "/Users/yichenhao/bff2/BFF2/BFF2/BFF2.csproj"
             }
           }
         }

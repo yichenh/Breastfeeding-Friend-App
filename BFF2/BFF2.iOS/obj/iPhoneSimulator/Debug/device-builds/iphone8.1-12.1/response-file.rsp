@@ -1,5 +1,5 @@
---cache=/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/mtouch-cache
---sim=/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/BFF2.iOS.app
+--cache=/Users/yichenhao/bff2/BFF2/BFF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/mtouch-cache
+--sim=/Users/yichenhao/bff2/BFF2/BFF2.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/BFF2.iOS.app
 --executable=BFF2.iOS
 --debug
 --nolink
@@ -9,9 +9,9 @@
 --aot-options=-O=-float32
 --http-message-handler=HttpClientHandler
 --abi=x86_64
---symbollist=/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/mtouch-symbols.list
+--symbollist=/Users/yichenhao/bff2/BFF2/BFF2.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone8.1-12.1/mtouch-symbols.list
 --dsym=no
--r=/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2/bin/Debug/netstandard1.0/BFF2.dll
+-r=/Users/yichenhao/bff2/BFF2/BFF2/bin/Debug/netstandard1.0/BFF2.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -196,7 +196,7 @@
 -r=/Users/yichenhao/.nuget/packages/xamarin.forms/3.4.0.1008975/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/yichenhao/.nuget/packages/xamarin.forms/3.4.0.1008975/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/yichenhao/.nuget/packages/xamarin.forms/3.4.0.1008975/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2/bin/Debug/netstandard1.0/BFF2.dll
+-r=/Users/yichenhao/bff2/BFF2/BFF2/bin/Debug/netstandard1.0/BFF2.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/yichenhao/Desktop/bff2-patricks-views@84e2e4eabe8/BFF2/BFF2.iOS/bin/iPhoneSimulator/Debug/BFF2.iOS.exe
+--root-assembly=/Users/yichenhao/bff2/BFF2/BFF2.iOS/bin/iPhoneSimulator/Debug/BFF2.iOS.exe
 

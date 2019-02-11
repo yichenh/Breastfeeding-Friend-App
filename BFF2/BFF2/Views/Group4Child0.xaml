@@ -3,8 +3,9 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <ImageButton x:Name="pic1" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic1"/>
                 <ImageButton x:Name="pic2" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic3"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

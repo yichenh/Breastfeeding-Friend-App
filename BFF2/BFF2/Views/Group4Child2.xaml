@@ -3,11 +3,12 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <ImageButton x:Name="pic1" Clicked="OnCallVideo"/>
-                <ImageButton x:Name="pic2" Clicked="OnCallVideo"/>
-                <ImageButton x:Name="pic4" Clicked="OnCallVideo"/>
-                <ImageButton x:Name="pic5" Clicked="OnCallVideo"/>
-                <ImageButton x:Name="pic6" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic1"/>
+                <ImageButton x:Name="pic2"/>
+                <ImageButton x:Name="pic3" Clicked="OnCallVideo"/>
+                <ImageButton x:Name="pic4"/>
+                <ImageButton x:Name="pic5"/>
+                <ImageButton x:Name="pic6"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

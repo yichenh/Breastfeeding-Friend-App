@@ -11,6 +11,7 @@ namespace BFF2.Views
         {
             InitializeComponent();
             pic1.Source = ImageSource.FromResource("BFF2.Images.group11child4pic1.png");
+            pic2.Source = ImageSource.FromResource("BFF2.Images.group11child4pic2.png");
         }
 
         async void OnCallVideo(object sender, EventArgs e)
